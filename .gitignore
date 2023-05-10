@@ -1,0 +1,6 @@
+.env
+conf.d
+logs
+naxsi-rules
+naxsi-waf
+nginx
