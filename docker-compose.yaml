@@ -9,11 +9,11 @@ x-logging:
 
 services:
   naxsi:
-    container_name: nginx-naxsi
+    container_name: naxsi
     build:
       context: ./
       dockerfile: Dockerfile
-    image: nginx-naxsi:v1.22.1
+    image: naxsi:v1.22.1
 
     environment:
       TZ: Asia/Bangkok
